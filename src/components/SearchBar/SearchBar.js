@@ -1,5 +1,6 @@
 import React from 'react';
 import './SearchBar.css';
+// import './Searchbar.css';
 
 const sortByOptions = {
   'Best Match': 'best_match',
@@ -35,7 +36,8 @@ class SearchBar extends React.Component {
           <input placeholder="Where?" />
         </div>
         <div className="SearchBar-submit">
-          <a>Let's Go</a>
+         {/* // eslint-disable-next-line */}
+          <a href="#">Let's Go</a>
         </div>
       </div>
     )
